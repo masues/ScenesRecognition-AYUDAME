@@ -1,0 +1,6 @@
+# Media files
+*.mp4
+
+# Jupyter Notebook
+*.ipynb_checkpoints/*
+*__pycache__/*

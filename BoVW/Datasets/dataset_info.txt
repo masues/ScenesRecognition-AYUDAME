@@ -1,0 +1,6 @@
+Datasets:
+01: TUM_RGBD_Dataset, rgbd_dataset_freiburg2_pioneer_slam, dividido manualmente
+    (4 zonas), extractBofs método 2, 3 capas, 3.5 metros de profundidad en la nube de puntos
+
+02: Microsoft 7 scenes, secuencia 1, (7 zonas), extractBofs método 2, 3 capas,
+    4 metros de profundidad en la nube de puntos
