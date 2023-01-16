@@ -1,4 +1,7 @@
 Modelos
 
 01: Entrenamiento con dataset 02, división de datos train 0.75 test 0.25,
-codebook de tamaño 256 k_means_seed = 13, clasificador svm C=5.56 kernel='rbf'
+codebook de tamaño 256, k_means_seed = 13, clasificador svm C=5.56 kernel='rbf'
+
+02: Entrenamiento con dataset 04, división de datos train 0.75 test 0.25,
+codebook de tamaño 256, k_means_seed = 13, clasificador svm C=4.45 kernel='rbf'
