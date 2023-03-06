@@ -1,0 +1,1 @@
+/home/mario/SharedFiles/UNAM/Proyecto_AYUDAME/AYUDAME/Software/Navegacion/BOF_RGBD/extractBofs.py
