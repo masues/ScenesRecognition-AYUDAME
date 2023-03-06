@@ -15,7 +15,8 @@ skippted_frames = 0
 
 files_paths = prepareFiles(pcd_dir,num_classes)
 
-init = time.process_time()
+init_cpu = time.process_time()
+init_r = time.perf_counter()
 for filename in files_paths:
     pcd_bofs = extractBofs(filename,axis=2,method=2,layers=3)
 
@@ -24,8 +25,9 @@ for filename in files_paths:
         skippted_frames += 1
         continue
 
-end = time.process_time()
+end_cpu = time.process_time()
+end_r = time.perf_counter()
 
 print(f"{len(files_paths)} frames processed")
 print(f"{skippted_frames} frames were skipped")
-print(f"The feature extraction took {end - init}[s]")
+print(f"The feature extraction took {end_cpu - init_cpu:.6f}[s] CPU, {end_r - init_r:.6f}[s] real")
