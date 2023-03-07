@@ -25,23 +25,27 @@ def getCodebook(descriptors_list, k, num_samples=None, seed=None):
         num_samples = descriptors.shape[0]
     print("Computing kmeans on "+str(num_samples) +
             " samples with "+str(k)+" centroids")
-    init = time.time()
+    init_cpu = time.process_time()
+    init_r = time.perf_counter()
     codebook = vq.kmeans(obs=descriptors, k_or_guess=k, iter=6, seed=seed)[0]
-    end = time.time()
-    print("Done in "+str(end-init)+" secs.")
+    end_cpu = time.process_time()
+    end_r = time.perf_counter()
+    print(f"The codebook generation took {end_cpu - init_cpu:.6f}[s] CPU, {end_r - init_r:.6f}[s] real")
     return codebook
 
 
 def getBoVWRepresentation(descriptors, codebook):
     """ Given a codebook, return the BoVW representation """
     print("Extracting visual word representations")
-    init = time.time()
     num_imgs = len(descriptors)
     k = codebook.shape[0]
     visual_words = np.zeros((num_imgs, k), dtype=np.float32)
+    init_cpu = time.process_time()
+    init_r = time.perf_counter()
     for i in range(num_imgs):
         words = vq.vq(descriptors[i], codebook)[0]
         visual_words[i, :] = np.bincount(words, minlength=k)
-    end = time.time()
-    print("Done in "+str(end-init)+" secs.")
+    end_cpu = time.process_time()
+    end_r = time.perf_counter()
+    print(f"The histogram generation took {end_cpu - init_cpu:.6f}[s] CPU, {end_r - init_r:.6f}[s] real")
     return visual_words

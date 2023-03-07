@@ -5,6 +5,21 @@
 *.ipynb_checkpoints/*
 *__pycache__/*
 BoVW/__pycache__
+TimeTesting/SharedFunctions/__pycache__/
+TimeTesting/__pycache__/
 
 # Config
 .vscode
+
+# Special files
+ColorBOF/
+Incidences/Generate_PCD_Test.ipynb
+Incidences/checkOrder.ipynb
+Incidences/extractBofs_test.ipynb
+Screenshot_20220214_202240.png
+find_contours.py
+generate_bof_dataset_onehot.py
+generate_pcd_zones.sh
+pcd_test.ply
+pcd_test_arm.ply
+zonas.png
