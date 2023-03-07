@@ -13,3 +13,8 @@ Datasets:
 
 05: Microsoft 7 scenes, secuencia 2, (7 zonas), extractBofs método 2, 3 capas,
     4 metros de profundidad en la nube de puntos
+
+06: Microsoft 7 scenes, secuencia 1, descriptores SIFT, divididos en datos de
+    entrenamiento 75% y datos de prueba 25%, random_state = 8
+
+07: Microsoft 7 scenes, secuencia 2, descriptores SIFT
