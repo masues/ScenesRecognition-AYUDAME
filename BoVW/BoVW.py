@@ -36,8 +36,8 @@ def getCodebook(descriptors_list, k, num_samples=None, seed=None):
 
 def getBoVWRepresentation(descriptors, codebook):
     """ Given a codebook, return the BoVW representation """
-    print("Extracting visual word representations")
     num_imgs = len(descriptors)
+    print(f"Processing histogram generation over {num_imgs} samples")
     k = codebook.shape[0]
     visual_words = np.zeros((num_imgs, k), dtype=np.float32)
     init_cpu = time.process_time()

@@ -1,4 +1,4 @@
-""" Test script to measure codebook generation performance over time with BOF """
+""" Test script to measure codebook generation performance over time with SIFT """
 
 from joblib import load
 import sys
