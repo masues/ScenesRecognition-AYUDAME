@@ -2,12 +2,12 @@
 
 import numpy as np
 import time
-from prepareFiles import prepareFiles
+import os
 
 
 class FeatureExtractionTime:
   def __init__(self, data_dir,num_classes) -> None:
-    self.files_paths = prepareFiles(data_dir, num_classes)
+    self.files_paths = self.prepareFiles(data_dir,num_classes)
 
   def feature_extraction_single(self, filename_num, num_iterations,
                                 callback_feature_extraction, descriptor=None):
@@ -46,3 +46,13 @@ class FeatureExtractionTime:
     print(f"{len(self.files_paths)} frames processed")
     print(f"{skippted_frames} frames were skipped")
     print(f"The feature extraction took {end_cpu - init_cpu:.6f}[s] CPU, {end_r - init_r:.6f}[s] real")
+
+  def prepareFiles(self,rootpath,num_classes):
+    """ Generates file path lists """
+    files_paths = []
+    classpath = sorted(os.listdir(rootpath))
+    for i in range(num_classes):
+      filenames = sorted(os.listdir(os.path.join(rootpath, classpath[i])))
+      for filename in filenames:
+        files_paths.append(os.path.join(rootpath, classpath[i], filename))
+    return files_paths

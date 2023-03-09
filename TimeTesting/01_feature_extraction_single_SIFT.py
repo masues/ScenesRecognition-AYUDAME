@@ -3,7 +3,7 @@
 import cv2 as cv
 import sys
 sys.path.append("SharedFunctions")
-from feature_extraction import FeatureExtractionTime
+from Feature_Extraction import FeatureExtractionTime
 
 
 # Path of RGB images divided into classes

@@ -3,7 +3,7 @@
 from extractBofs import extractBofs
 import sys
 sys.path.append("SharedFunctions")
-from feature_extraction import FeatureExtractionTime
+from Feature_Extraction import FeatureExtractionTime
 
 
 # Path of point clouds divided into classes
