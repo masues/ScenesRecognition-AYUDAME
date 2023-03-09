@@ -8,7 +8,6 @@ sys.path.append("SharedFunctions")
 from BoVW import getBoVWRepresentation
 
 # Descriptors load
-y_bof = np.load("Data/y_bof.npy")
 filehandler = open("Data/dscs_bof.bin", 'rb')
 dscs_bof = pickle.load(filehandler)
 filehandler.close()
@@ -16,9 +15,8 @@ filehandler.close()
 # Codebook load
 codebook = np.load("Data/codebook_bof.npy")
 
-
 # Data division
-X_train, X_test, y_train, y_test = train_test_split(dscs_bof, y_bof,
+X_train, X_test = train_test_split(dscs_bof,
     shuffle = True, random_state = 8)
 
 # Histogram generation
