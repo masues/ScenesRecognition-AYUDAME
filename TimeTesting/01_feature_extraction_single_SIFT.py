@@ -7,7 +7,7 @@ from Feature_Extraction import FeatureExtractionTime
 
 
 # Path of RGB images divided into classes
-pcd_dir = "../../Proyecto_AYUDAME_Datasets/Microsoft_7scenes_rgb"
+pcd_dir = "Data/Microsoft_7scenes/rgb"
 num_classes = 1
 filename_num = 568 # Fixed frame
 num_iterations = 10 # Number of iterations
