@@ -1,0 +1,155 @@
+Script started on 2023-03-09 13:45:22-0600
+]0;iimas@iimas: /mnt/usb_mario[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario[00m$ sour[K[K[K[K[6P(reverse-i-search)`':[Cs': source ~/ayudame_py/bin/activate[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@o[C[C[C[1@u[C[C[C]0;iimas@iimas: /mnt/usb_mario[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario[00m$ source ~/ayudame_py/bin/activate[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario[00m$ cd TimeTesting/
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ ls
+[0m[01;32m01_feature_extraction_single_BOF.py[0m   [01;32m04_histogram_generation_SIFT.py[0m  [34;42mData[0m
+[01;32m01_feature_extraction_single_SIFT.py[0m  [01;32m05_model_training_cv_BOF.py[0m      [01;32mextractBofs.py[0m
+[01;32m02_feature_extraction_n_BOF.py[0m        [01;32m05_model_training_cv_SIFT.py[0m     [01;32mPCD_Image_Processor.py[0m
+[01;32m02_feature_extraction_n_SIFT.py[0m       [01;32m06_model_training_df_BOF.py[0m      [34;42m__pycache__[0m
+[01;32m03_codebook_generation_BOF.py[0m         [01;32m06_model_training_df_SIFT.py[0m     [34;42mSharedFunctions[0m
+[01;32m03_codebook_generation_SIFT.py[0m        [01;32m07_classification_BOF.py[0m
+[01;32m04_histogram_generation_BOF.py[0m        [01;32m07_classification_SIFT.py[0m
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ python [K[K[K[K[K[K[Ktime python 01_feature_extraction_single_BOF.py  
+Single feature extraction BOF
+The iteration 0 took 0.174384[s] CPU, 0.182668[s] real
+The iteration 1 took 0.161700[s] CPU, 0.162892[s] real
+The iteration 2 took 0.160183[s] CPU, 0.161154[s] real
+The iteration 3 took 0.160810[s] CPU, 0.161852[s] real
+The iteration 4 took 0.160024[s] CPU, 0.161119[s] real
+The iteration 5 took 0.160152[s] CPU, 0.161197[s] real
+The iteration 6 took 0.160389[s] CPU, 0.161523[s] real
+The iteration 7 took 0.160258[s] CPU, 0.161348[s] real
+The iteration 8 took 0.160399[s] CPU, 0.161446[s] real
+The iteration 9 took 0.160120[s] CPU, 0.161596[s] real
+The max value was: 0.174384[s] CPU, 0.182668[s] real
+The min value was: 0.160024[s] CPU, 0.161119[s] real
+The average was:   0.161842[s] CPU, 0.163679[s] real
+
+real	0m11.247s
+user	0m8.772s
+sys	0m0.680s
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ time python 01_feature_extraction_single_BOF.py  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ time python 01_feature_extraction_single_BOF.py  [A(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ time python 01_feature_extraction_single_BOF.py [K(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ time python 01_feature_extraction_single_BOF.py [K(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ time python 01_feature_extraction_single_BOF.py [K(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ time python 01_feature_extraction_single_BOF.py [K(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ time python 01_feature_extraction_single_BOF.py [K(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ time python 01_feature_extraction_single_BOF.py [K(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ time python 01_feature_extraction_single_BOF.py [K(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ time python 01_feature_extraction_single_BOF.py [K(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ time python 01_feature_extraction_single_BOF.py [K(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ time python 01_feature_extraction_single_BOF.py [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P 1 _ [1P [1P [1P [K[1P [1P [1P [1P [1P [1P [K[1P [1P [1P [1P p y t h o n [C 0 1 _feature_extraction_single_ B OF.py 
+Single feature extraction BOF
+The iteration 0 took 0.177179[s] CPU, 0.179772[s] real
+The iteration 1 took 0.167198[s] CPU, 0.168316[s] real
+The iteration 2 took 0.165930[s] CPU, 0.167105[s] real
+The iteration 3 took 0.165043[s] CPU, 0.166494[s] real
+The iteration 4 took 0.169118[s] CPU, 0.170405[s] real
+The iteration 5 took 0.164722[s] CPU, 0.166047[s] real
+The iteration 6 took 0.169669[s] CPU, 0.171510[s] real
+The iteration 7 took 0.166727[s] CPU, 0.168055[s] real
+The iteration 8 took 0.167049[s] CPU, 0.168130[s] real
+The iteration 9 took 0.167068[s] CPU, 0.168393[s] real
+The max value was: 0.177179[s] CPU, 0.179772[s] real
+The min value was: 0.164722[s] CPU, 0.166047[s] real
+The average was:   0.167970[s] CPU, 0.169423[s] real
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ oyt[K[K[Kpython 02[K1_feature_extraction_single_Si[KIFT.py 
+Single feature extraction SIFT
+The iteration 0 took 0.409657[s] CPU, 0.310032[s] real
+The iteration 1 took 0.352439[s] CPU, 0.249636[s] real
+The iteration 2 took 0.354647[s] CPU, 0.248965[s] real
+The iteration 3 took 0.355505[s] CPU, 0.249456[s] real
+The iteration 4 took 0.353532[s] CPU, 0.248395[s] real
+The iteration 5 took 0.353150[s] CPU, 0.248375[s] real
+The iteration 6 took 0.353192[s] CPU, 0.248546[s] real
+The iteration 7 took 0.353429[s] CPU, 0.248676[s] real
+The iteration 8 took 0.353024[s] CPU, 0.248264[s] real
+The iteration 9 took 0.353444[s] CPU, 0.248671[s] real
+The max value was: 0.409657[s] CPU, 0.310032[s] real
+The min value was: 0.352439[s] CPU, 0.248264[s] real
+The average was:   0.359202[s] CPU, 0.254902[s] real
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ python 02_feature_extraction_n_BOF.py 
+Mutiple frames feature extraction BOF
+279 frames processed
+62 frames were skipped
+The feature extraction took 27.637873[s] CPU, 28.622165[s] real
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ python 02_feature_extraction_n_BOF.py [Kpython 02_feature_extraction_n_Si[KIFT.py 
+Mutiple frames feature extraction SIFT
+279 frames processed
+0 frames were skipped
+The feature extraction took 132.651810[s] CPU, 79.616154[s] real
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ python 03_codebook_generation_BOF.py 
+Codebook generation BOF
+Computing kmeans on 14484 samples with 256 centroids
+The codebook generation took 97.838339[s] CPU, 24.620207[s] real
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ python 03_codebook_generation_BOF.py [K[K[K[K[K[K[KSIFT.py 
+Codebook generation SIFT
+Computing kmeans on 150000 samples with 1024 centroids
+The codebook generation took 4408.495902[s] CPU, 1509.544230[s] real
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ python 04_histogram_generation_BOF.py 
+Extracting BOF visual word representations
+Processing histogram generation over 4875 samples
+The histogram generation took 6.034305[s] CPU, 3.262510[s] real
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ python 05_model_training_cv_[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K4_histogram_generation_BOF.py [K[K[K[K[K[K[KSIFT.py 
+Extracting SIFT visual word representations
+Processing histogram generation over 4875 samples
+The histogram generation took 262.571613[s] CPU, 66.058778[s] real
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ python 05_model_training_cv_BOF.py 
+Cross-validation across kernel types, BOF
+The cross validation took 283.236275[s] CPU, 284.847418[s] real
+Cross-validation across C Regulator, BOF
+The cross validation took 908.275633[s] CPU, 913.908109[s] real
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ python 05_model_training_cv_SIFT.py 
+Cross-validation across kernel types, SIFT
+The cross validation took 524.150356[s] CPU, 527.239575[s] real
+Cross-validation across C Regulator, SIFT
+The cross validation took 1888.816434[s] CPU, 1900.630867[s] real
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ python 06_model_training_df_BOF.py 
+SVM model training using defined parameters, BOF
+The training with defined parameters took 9.455460[s] CPU, 9.510960[s] real
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ python 06_model_training_df_Si[KIFT.py 
+SVM model training using defined parameters, SIFT
+The training with defined parameters took 33.781908[s] CPU, 33.982374[s] real
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ python 07_classification_BOF.py 
+SVM model classification using BOF
+Classifing 4875 samples
+The classification took 18.217076[s] CPU, 18.335307[s] real
+Classification accuracy of the training samples: 0.9975384615384615
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ python 07_classification_SIFT.py 
+SVM model classification using SIFT
+Classifing 4875 samples
+The classification took 12.773199[s] CPU, 12.855342[s] real
+Classification accuracy of the training samples: 1.0
+(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ neofetch
+[?25l[?7l[0m[31m[1m            .-/+oossssoo+/-. 
+        `:+ssssssssssssssssss+:` 
+      -+ssssssssssssssssssyyssss+- 
+    .ossssssssssssssssss[37m[0m[1mdMMMNy[0m[31m[1msssso. 
+   /sssssssssss[37m[0m[1mhdmmNNmmyNMMMMh[0m[31m[1mssssss/ 
+  +sssssssss[37m[0m[1mhm[0m[31m[1myd[37m[0m[1mMMMMMMMNddddy[0m[31m[1mssssssss+ 
+ /ssssssss[37m[0m[1mhNMMM[0m[31m[1myh[37m[0m[1mhyyyyhmNMMMNh[0m[31m[1mssssssss/ 
+.ssssssss[37m[0m[1mdMMMNh[0m[31m[1mssssssssss[37m[0m[1mhNMMMd[0m[31m[1mssssssss. 
++ssss[37m[0m[1mhhhyNMMNy[0m[31m[1mssssssssssss[37m[0m[1myNMMMy[0m[31m[1msssssss+ 
+oss[37m[0m[1myNMMMNyMMh[0m[31m[1mssssssssssssss[37m[0m[1mhmmmh[0m[31m[1mssssssso 
+oss[37m[0m[1myNMMMNyMMh[0m[31m[1msssssssssssssshmmmh[0m[31m[1mssssssso 
++ssss[37m[0m[1mhhhyNMMNy[0m[31m[1mssssssssssss[37m[0m[1myNMMMy[0m[31m[1msssssss+ 
+.ssssssss[37m[0m[1mdMMMNh[0m[31m[1mssssssssss[37m[0m[1mhNMMMd[0m[31m[1mssssssss. 
+ /ssssssss[37m[0m[1mhNMMM[0m[31m[1myh[37m[0m[1mhyyyyhdNMMMNh[0m[31m[1mssssssss/ 
+  +sssssssss[37m[0m[1mdm[0m[31m[1myd[37m[0m[1mMMMMMMMMddddy[0m[31m[1mssssssss+ 
+   /sssssssssss[37m[0m[1mhdmNNNNmyNMMMMh[0m[31m[1mssssss/ 
+    .ossssssssssssssssss[37m[0m[1mdMMMNy[0m[31m[1msssso. 
+      -+sssssssssssssssss[37m[0m[1myyy[0m[31m[1mssss+- 
+        `:+ssssssssssssssssss+:` 
+            .-/+oossssoo+/-. 
+[20A[9999999D[43C[0m[1m[0m[31m[1miimas@[0m[31m[1miimas[0m 
+[43C[0m-----------[0m 
+[43C[0m[31m[1mOS[0m[0m:[0m Ubuntu 18.04.6 LTS aarch64[0m 
+[43C[0m[31m[1mHost[0m[0m:[0m NVIDIA Jetson Nano Developer Kit[0m 
+[43C[0m[31m[1mKernel[0m[0m:[0m 4.9.253-tegra[0m 
+[43C[0m[31m[1mUptime[0m[0m:[0m 1 hour, 51 mins[0m 
+[43C[0m[31m[1mPackages[0m[0m:[0m 2359[0m 
+[43C[0m[31m[1mShell[0m[0m:[0m bash 4.4.20[0m 
+[43C[0m[31m[1mTerminal[0m[0m:[0m /dev/pts/0[0m 
+[43C[0m[31m[1mCPU[0m[0m:[0m (4) @ 1.479GHz[0m 
+[43C[0m[31m[1mMemory[0m[0m:[0m 378MiB / 3964MiB[0m 
+
+[43C[0m[30m[40m   [0m[31m[41m   [0m[32m[42m   [0m[33m[43m   [0m[34m[44m   [0m[35m[45m   [0m[36m[46m   [0m[37m[47m   [0m
+
+
+[6B[?25h[?7h(ayudame_py) ]0;iimas@iimas: /mnt/usb_mario/TimeTesting[01;32miimas@iimas[00m:[01;34m/mnt/usb_mario/TimeTesting[00m$ exit
+exit
+
+Script done on 2023-03-09 15:32:27-0600
