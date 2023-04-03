@@ -19,4 +19,4 @@ y_train, y_test = train_test_split(y_train,
 mtt = ModelTrainingTime(x_train=vw_train,y_train=y_train)
 
 print("SVM model training using defined parameters, BOF")
-mtt.train_def_params(C=0.01,kernel='linear')
+mtt.train_def_params(C=3.58,kernel='rbf')

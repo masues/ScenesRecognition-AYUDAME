@@ -14,4 +14,4 @@ vw_train = np.load("Data/vw_sift.npy")
 mtt = ModelTrainingTime(x_train=vw_train,y_train=y_train)
 
 print("SVM model training using defined parameters, SIFT")
-mtt.train_def_params(C=4.45,kernel='rbf')
+mtt.train_def_params(C=0.01,kernel='linear')
