@@ -134,3 +134,25 @@ oss[37m[0m[1myNMMMNyMMh[0m[31m[1msssssssssssssshmmmh[0m[31m[1mssssssso
 exit
 
 Script done on 2023-04-02 17:13:06-06:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-04-03 20:53:40-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="130" LINES="28"]
+]0;ubuntu@raspi4-ubuntu: ~/TimeTesting[01;32mubuntu@raspi4-ubuntu[00m:[01;34m~/TimeTesting[00m$ source ~/python-envs/rgbd/bin/activate
+(rgbd) ]0;ubuntu@raspi4-ubuntu: ~/TimeTesting[01;32mubuntu@raspi4-ubuntu[00m:[01;34m~/TimeTesting[00m$ python 06_model_training_df_BOF.py 
+SVM model training using defined parameters, BOF
+The training with defined parameters took 13.917922[s] CPU, 13.950052[s] real
+(rgbd) ]0;ubuntu@raspi4-ubuntu: ~/TimeTesting[01;32mubuntu@raspi4-ubuntu[00m:[01;34m~/TimeTesting[00m$ python 06_model_training_df_BOF.py [K[K[K[K[K[K[KSIFT.py 
+SVM model training using defined parameters, SIFT
+The training with defined parameters took 10.386397[s] CPU, 10.410281[s] real
+(rgbd) ]0;ubuntu@raspi4-ubuntu: ~/TimeTesting[01;32mubuntu@raspi4-ubuntu[00m:[01;34m~/TimeTesting[00m$ python 07_classification_BOF.py 
+SVM model classification using BOF
+Classifing 4875 samples
+The classification took 15.603265[s] CPU, 15.639404[s] real
+Classification accuracy of the training samples: 0.9967179487179487
+(rgbd) ]0;ubuntu@raspi4-ubuntu: ~/TimeTesting[01;32mubuntu@raspi4-ubuntu[00m:[01;34m~/TimeTesting[00m$ pyht[K[Kthon 07_classification_Si[KIFT.py 
+SVM model classification using SIFT
+Classifing 4875 samples
+The classification took 12.337447[s] CPU, 12.363435[s] real
+Classification accuracy of the training samples: 1.0
+(rgbd) ]0;ubuntu@raspi4-ubuntu: ~/TimeTesting[01;32mubuntu@raspi4-ubuntu[00m:[01;34m~/TimeTesting[00m$ exit
+exit
+
+Script done on 2023-04-03 20:56:33-06:00 [COMMAND_EXIT_CODE="0"]
